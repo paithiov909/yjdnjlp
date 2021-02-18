@@ -1,0 +1,31 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# yjdnjlp
+
+<!-- badges: start -->
+[![GitHub last commit](https://img.shields.io/github/last-commit/paithiov909/yjdnjlp)](#)
+[![GitHub license](https://img.shields.io/github/license/paithiov909/yjdnjlp.svg)](https://github.com/paithiov909/yjdnjlp/blob/master/LICENSE)
+<!-- badges: end -->
+
+## Installation
+
+```r
+remotes::install_github("paithiov909/yjdnjlp")
+```
+
+## License
+
+MIT license.

@@ -1,15 +1,28 @@
-Package: YjdnJlp
+Package: yjdnjlp
 Type: Package
-Title: Text Analysis by Yahoo! Japan Develper Network
-Version: 0.9.8
-Date: 2011-03-20
-Author: Yohei Sato
-Maintainer: Yohei Sato <yokkuns@tkul.jp>
-Description: Japanese Text Analysis using Yahoo! Japan develper Network
-        (http://developer.yahoo.co.jp/webapi/jlp/)
-License: BSD
-LazyLoad: yes
-Depends: XML,RCurl,methods
-Packaged: 2012-10-29 08:58:09 UTC; ripley
-Repository: CRAN
-Date/Publication: 2012-10-29 08:58:09
+Title: An R Client of Yahoo!Japan Text Analysis API
+Version: 1.0.0.900
+Authors@R: c(
+    person("Akiru", "Kato", email = "paithiov909@gmail.com", role = c("aut", "cre")))
+Description: Rennovation of cran/YjdnJlp.
+Depends: R (>= 4.0.0)
+License: MIT + file LICENSE
+URL: https://github.com/paithiov909/yjdnjlp
+BugReports: https://github.com/paithiov909/yjdnjlp/issues 
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+VignetteBuilder: knitr
+Language: en-US
+Suggests:
+    knitr,
+    rmarkdown,
+    spelling,
+    testthat
+Imports: 
+    httr,
+    dplyr,
+    purrr,
+    stringi,
+    xml2
